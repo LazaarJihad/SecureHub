@@ -1,0 +1,159 @@
+/* Style du conteneur du tableau */
+.table-container {
+  padding: 2rem;
+  border: 2px solid #0b5aaf; /* Bordure bleue foncée autour de tout le conteneur */
+  border-radius: 8px; /* Bordures arrondies pour un effet plus moderne */
+  background-color: #fff; /* Fond blanc pour le conteneur */
+}
+
+/* Style du titre */
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #000; /* Texte noir pour le titre */
+}
+
+/* Style du tableau des utilisateurs */
+.user-role-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background-color: #fff; /* Fond blanc pour le tableau */
+  color: #000; /* Texte noir pour les cellules du tableau */
+}
+
+/* Style des en-têtes du tableau */
+.user-role-table thead th {
+  background-color: #f8f9fa; /* Fond blanc pour les en-têtes */
+  color: #000; /* Texte noir pour les en-têtes */
+  border: 1px solid #004085; /* Bordure bleue foncée pour les en-têtes */
+}
+
+/* Style des cellules du tableau */
+.user-role-table th, .user-role-table td {
+  border: 1px solid #004085; /* Bordure bleue foncée pour les cellules du tableau */
+  padding: 8px;
+  text-align: center;
+}
+
+/* Fond blanc pour les cellules */
+.user-role-table td {
+  background-color: #fff;
+}
+
+/* Style des initiales dans le cercle */
+.initial-circle {
+  width: 50px; /* Taille ajustée */
+  height: 50px; /* Taille ajustée */
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1269c7, #1a73e8); /* Dégradé de bleu foncé */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px; /* Taille de police ajustée pour le cercle */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effet d'ombre */
+  margin: auto;
+}
+
+/* Style des icônes d'action */
+.action-icons {
+  display: flex;
+  justify-content: center; /* Alignement centré des icônes d'action */
+  gap: 10px; /* Espace entre les icônes */
+}
+
+/* Style du bouton d'édition */
+.btn-edit {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: #007bff; /* Couleur bleue pour l'icône d'édition */
+}
+
+/* Style du bouton de suppression */
+.btn-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: #dc3545; /* Couleur rouge pour l'icône de suppression */
+}
+
+/* Style au survol des boutons d'action */
+.btn-edit:hover, .btn-delete:hover {
+  opacity: 0.8;
+}
+
+/* Style de la colonne d'actions */
+.action-column {
+  text-align: center;
+}
+
+/* Styles de la modale */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour la modale */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Effet d'ombre pour la modale */
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal h2 {
+  margin-bottom: 1rem;
+  color: #000; /* Texte noir pour le titre de la modale */
+}
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal label {
+  margin-bottom: 0.5rem;
+  color: #000; /* Texte noir pour les labels */
+}
+
+.modal input {
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #004085; /* Bordure bleue foncée pour les champs de saisie */
+  border-radius: 4px;
+}
+
+.modal button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  background-color: #004085; /* Fond bleu foncé pour le bouton */
+  color: #fff; /* Texte blanc pour le bouton */
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal button[type="submit"]:hover {
+  background-color: #003057; /* Couleur de survol pour le bouton */
+}

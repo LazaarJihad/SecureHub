@@ -1,0 +1,11 @@
+# Fichiers à ignorer dans le front-end
+frontend/node_modules
+frontend/build
+
+# Fichiers à ignorer dans le back-end
+backend/node_modules
+backend/.env
+backend/logs
+
+# Fichiers système
+.DS_Store

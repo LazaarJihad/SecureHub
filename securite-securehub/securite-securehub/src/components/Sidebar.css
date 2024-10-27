@@ -1,0 +1,46 @@
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .sidebar-link .icon {
+    margin-right: 10px; /* Ajustez cet espacement selon vos besoins */
+    font-size: 24px; /* Ajustez la taille de l'icône */
+  }
+  
+  .sidebar-link span {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Style spécifique pour le conteneur de la notification */
+  .notification-container {
+    position: relative;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -10px; /* Positionnement du badge au-dessus de l'icône */
+    right: -10px; /* Positionnement à droite de l'icône */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  /* Style de déconnexion */
+  .logout {
+    margin-top: auto;
+  }
+  
